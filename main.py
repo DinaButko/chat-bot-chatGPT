@@ -9,7 +9,7 @@ class ChatBotWindow(QMainWindow):
         super().__init__()
 
         self.chatbot = ChatBot(
-            api_key="sk-NzmcbvRaBLpKRA3R9pImCMI8KhJlaEPukwAbBf-0wkT3BlbkFJ6-iE4KvdbFR47pKiF6KpGvjGqAgdpLmWkQtGkv_LYA")
+            api_key="some_api_key")
 
         self.setMinimumSize(700, 500)
 
